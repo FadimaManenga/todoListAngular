@@ -1,1 +1,39 @@
-<p>todo works!</p>
+<!-- todo works! -->
+
+<!-- input -->
+
+<div class="form-group row">
+
+    <div class="col-sm-10 input-group mb-3">
+        <input type="text" class="form-control form-control-lg" #itemTitle>
+        <div class="input-group-append">
+            <span class="input-group-text hover-cursor text-success" id="basic-addon2" (click)="onAdd(itemTitle)">
+                <i class="fa fa-plus-circle fa-2x"></i>
+            </span>
+        </div>
+    </div>
+
+</div>
+
+<!-- conteneur list -->
+
+<div class="form-group">
+		<div class="col-sm-10 input-group mb-3">
+
+						<div class="input-group-prepend">
+										<span class="input-group-text text-success hover-cursor">
+								
+												<i class="fas fa-check-circle"></i>
+										</span>
+								</div>
+
+								<label class="form-control form-control-lg">
+										
+								</label>
+								
+								<div class="input-group-append">
+										<span class="input-group-text text-danger hover-cursor"><i class="fas fa-trash-alt"></i></span>
+								</div>
+
+		</div>
+</div>
